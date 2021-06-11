@@ -1,7 +1,13 @@
 $body-bg: grey;
 
 .card-img-top {
-	padding: 16px
+	padding: 16px;
+}
+
+.scroll-to-top {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
