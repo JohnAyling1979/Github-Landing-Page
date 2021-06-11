@@ -1,13 +1,9 @@
 import React from 'react';
-import './App.css';
+import './scss/custom.scss';
 import LandingPage from './Containers/LandingPage';
 
 function App() {
-  return (
-    <div>
-      <LandingPage />
-    </div>
-  )
+  return <LandingPage />
 }
 
 export default App;
