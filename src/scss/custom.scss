@@ -1,5 +1,14 @@
 $body-bg: grey;
 
+.card-columns {
+	.card {
+		&:hover {
+			box-shadow: 5px 2px 5px 1px black;
+			transition: all .5s;
+		}
+	}
+}
+
 .card-img-top {
 	padding: 16px;
 }
