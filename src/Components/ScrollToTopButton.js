@@ -20,7 +20,6 @@ function ScrollToTopButton() {
 }
 
 	useEffect(() => {
-		console.log('useEffect ran');
 		document.addEventListener("scroll", toggleVisibility);
 	}, []);
 
